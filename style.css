@@ -54,3 +54,11 @@ p#demo{
 	background: #e0e0e0;
 
 }
+p#autor{
+	margin: auto;
+	width: 60%;
+	text-align: center;
+
+	transition: 200ms;
+
+}
