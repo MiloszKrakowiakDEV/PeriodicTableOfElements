@@ -58,7 +58,8 @@ p#autor{
 	margin: auto;
 	width: 60%;
 	text-align: center;
-
 	transition: 200ms;
-
-}
+	position: absolute;
+	bottom: 30px;
+	left: 20%;
+	}
