@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    background: #c0c0c0;
+    padding: 0;
+    color: black;
+    font-size: 24pt;
+
+}
+li
+{
+    background: #d0d0d0;
+    color: black;
+    width: 80px;
+}
+span
+{
+	font-weight:800;
+	font-family: arial;
+	background: #e0e0e0;
+}
+button{
+	display:block;
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 20%;
+	text-align: center;
+	background: yellow;
+	color: black;
+	border: outset 5px black;
+	transition: 200ms;
+	
+}
+button:active{
+	background: orange 	;
+	color: black;
+	border: inset 5px black;
+	 transform: translateY(5px);
+	 transition: 200ms;
+	
+}button:hover{
+	background: orange 	;
+	color: black;
+	transition: 500ms;
+
+}
+p#demo{
+	margin: auto;
+	width: 60%;
+	text-align: center;
+	border: solid black 3px ;
+	transition: 200ms;
+	background: #e0e0e0;
+
+}
